@@ -1,0 +1,24 @@
+{
+  "name": "chumbl",
+  "version": "0.0.1",
+  "description": "Wrapper for chumbl api",
+  "main": "./index.js",
+  "author": {
+    "name": "Martin Naude",
+    "email": "martin@entelect.co.za"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinza78/chumbl"
+  },
+  "dependencies": {
+
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/martinza78/chumbl",
+  "_id": "chumbl@0.0.1",
+  "_from": "chumbl@"
+}
