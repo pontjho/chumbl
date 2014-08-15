@@ -1,6 +1,5 @@
 var chumbl=require('./lib/chumbl.js');
 
-
 function result(err,values){
     if (err){return console.error(err)}
     console.log(values);
@@ -103,7 +102,7 @@ chumbl.lookups.getLookup({
     lookupId:"53df7ec7c45312480fecaa91"
 },result)
 
-*/
+
 
 chumbl.timestore.getTimestores({
     chumblr:"dinersclubmiles",
@@ -120,3 +119,19 @@ chumbl.timestore.getTimestore({
     timestoreId:"53df7dd5c45312480fecaa90"
 
 },result)
+
+*/
+
+chumbl.chomp.getChompQItem({
+    chumblr:"dinersclubmiles",
+    token:"57b7930e920309eb97fa7f54766f5c014c9464f3",
+
+    chompQId:"53ee0667711babf01d9792e8"
+},result)
+
+/*
+
+ username:"diners@encentivize.co.za",
+ password:"test",
+
+ */
