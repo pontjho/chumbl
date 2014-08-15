@@ -5,7 +5,7 @@ function result(err,values){
     if (err){return console.error(err)}
     console.log(values);
 }
-
+/*
 chumbl.timestore.getValues({
     chumblr:"dinersclubmiles",
     username:"diners@encentivize.co.za",
@@ -58,4 +58,65 @@ chumbl.chomp.getChompQItem({
     password:"test",
     entityId:"12345",
     id:"53ebac9fcbcfcf041bbe51a7"
+},result)
+
+
+
+chumbl.chomp.addStatus({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    entityId:"12345",
+    id:"53ebac9fcbcfcf041bbe51a7",
+    status:{
+        status:"Completed",
+        data:{test:"completed"}
+    }
+},result)
+
+
+
+chumbl.lookups.getLookups({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test"
+},result)
+
+chumbl.lookups.getLookupValues({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    lookupId:"53df7ec7c45312480fecaa91"
+},result)
+
+ chumbl.lookups.getLookupSchema({
+ chumblr:"dinersclubmiles",
+ username:"diners@encentivize.co.za",
+ password:"test",
+ lookupId:"53df7ec7c45312480fecaa91"
+ },result)
+
+chumbl.lookups.getLookup({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    lookupId:"53df7ec7c45312480fecaa91"
+},result)
+
+*/
+
+chumbl.timestore.getTimestores({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test"
+
+},result)
+
+
+chumbl.timestore.getTimestore({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    timestoreId:"53df7dd5c45312480fecaa90"
+
 },result)
