@@ -1,9 +1,24 @@
 var chumbl=require('./lib/chumbl.js');
 
+
 function result(err,values){
     if (err){return console.error(err)}
-    console.log(values);
+
+
+
+    console.log(values)
+
 }
+
+chumbl.lookup.getLookupValues({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    lookupId:"53df7ec7c45312480fecaa91"
+},result)
+
+
+
 /*
 chumbl.timestore.getValues({
     chumblr:"dinersclubmiles",
@@ -120,7 +135,7 @@ chumbl.timestore.getTimestore({
 
 },result)
 
-*/
+
 
 chumbl.chomp.getChompQItem({
     chumblr:"dinersclubmiles",
@@ -129,9 +144,31 @@ chumbl.chomp.getChompQItem({
     chompQId:"53ee0667711babf01d9792e8"
 },result)
 
-/*
+
 
  username:"diners@encentivize.co.za",
  password:"test",
 
- */
+
+
+
+chumbl.timestore.queryEntities({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    timestoreId:"53df7dd5c45312480fecaa90",
+    query:"reference:1000H2"
+},result
+)
+
+
+chumbl.transaction.getTransactionCount({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    transactionTypeId:"53eef162876c13502036a505",
+    entityId:"12345",
+    query:"reference=RF2390334"
+},result)
+
+    */
