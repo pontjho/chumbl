@@ -17,9 +17,30 @@ chumbl.lookup.getLookupValues({
     lookupId:"53df7ec7c45312480fecaa91"
 },result)
 
-
-
 /*
+chumbl.chomp.addQItemStatus({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    entityId:"12345",
+    id:"53ebac9fcbcfcf041bbe51a7",
+    status:{
+        status:"Completed",
+        data:{test:"completed"}
+    }
+},result)
+
+
+chumbl.lookup.getLookupValues({
+    chumblr:"dinersclubmiles",
+    username:"diners@encentivize.co.za",
+    password:"test",
+    lookupId:"53df7ec7c45312480fecaa91"
+},result)
+
+
+
+
 chumbl.timestore.getValues({
     chumblr:"dinersclubmiles",
     username:"diners@encentivize.co.za",
