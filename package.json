@@ -1,6 +1,6 @@
 {
   "name": "chumbl",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Wrapper for chumbl api",
   "main": "./index.js",
   "author": {
@@ -12,13 +12,13 @@
     "url": "git://github.com/martinza78/chumbl"
   },
   "dependencies": {
-      "kwaai-restcall":"0.0.10"
+      "kwaai-restcall":"0.0.11"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/chumbl",
-  "_id": "chumbl@0.0.15",
+  "_id": "chumbl@0.0.16",
   "_from": "chumbl@"
 }
